@@ -1,0 +1,42 @@
+{
+    "pages": [
+
+        "pages/login/main",
+        "pages/index/main",
+        "pages/released/main",
+        "pages/search/main",
+        "pages/hot_label/main",
+        "pages/my/main",
+        "pages/my_pickItems/main",
+        "pages/my_information/main",
+        "pages/useDocument/main",
+        "pages/detail/main",
+        "pages/aboutThis/main"
+
+
+    ],
+    "window": {
+        "backgroundTextStyle": "light",
+        "navigationBarBackgroundColor": "#fbde8f",
+        "navigationBarTextStyle": "black"
+    },
+    "tabBar": {
+        "position": "bottom",
+        "list": [{
+            "text": "首页",
+            "pagePath": "pages/index/main",
+            "iconPath": "static/images/icon/shouye.png",
+            "selectedIconPath": "static/tabs/home-active.png"
+        }, {
+            "text": "发布",
+            "pagePath": "pages/released/main",
+            "iconPath": "static/images/icon/dingdan.png",
+            "selectedIconPath": "static/tabs/orders-active.png"
+        }, {
+            "text": "我的",
+            "pagePath": "pages/my/main",
+            "iconPath": "static/images/icon/wode.png",
+            "selectedIconPath": "static/tabs/orders-active.png"
+        }]
+    }
+}
